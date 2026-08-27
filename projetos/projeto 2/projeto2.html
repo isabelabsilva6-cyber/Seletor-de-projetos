@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha Loja - Comidas e Bebidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Urbanist", sans-serif;
+        }
+
+        .navbar {
+            background-color: rgb(255, 255, 255) !important;
+        }
+
+        a {
+            color: rgb(22, 88, 123) !important;
+        }
+
+
+
+        .piscar:hover {
+            cursor: pointer;
+            background-color: rgb(22, 88, 123);
+            color: aliceblue;
+        }
+
+        .piscar:hover .card-text {
+            color: aliceblue;
+        }
+        .btn-custom{
+            background-color: rgb(22, 88, 123);
+        }
+      
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid position-relative">
+
+                <a class="navbar-brand position-absolute start-50 translate-middle-x" href="#">
+                    <img src="./imagem/569261410_18412922752143636_1951886245012626742_n.jpg" style="width: 55px;"
+                        alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pag2">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pag3">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pag4">Localização</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main >
+        <section id="inicio" style="min-height: 90vh; background-color: rgb(132, 179, 206);">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagem/Design sem nome.png" class="d-block w-100"
+                            style="height: 90vh; object-fit: cover;" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagem/Design sem nome (2).png" class="d-block w-100"
+                            style="height: 90vh; object-fit: cover;" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagem/Design sem nome (1).png" class="d-block w-100"
+                            style="height: 90vh; object-fit: cover;" alt="Imagem 3">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="pag2" class="card-5" style="min-height: 100vh; background-color: rgb(132, 179, 206);">
+
+
+            <div class="d-flex justify-content-center mb-4" style="height: 50px; background-color: white;">
+                <img src="imagem/569261410_18412922752143636_1951886245012626742_n.jpg" alt="">
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 ">
+                    <h2 class="text-center text-white mb-4">Comidas</h2>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="./produto1.html">
+                            <img src="imagem/619215817_18091338041475968_4597761358422195417_n.jpg" class="card-img-top"
+                                alt="Comida 1">
+                            <div class="card-body">
+                                <p class="card-text"></a>Verrini</p>
+                                
+                            </div></a>
+                        </div>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="grandgateu.html">
+                            <img src="./imagem/619728333_18079180634259031_2611423135580119349_n.jpg"
+                                class="card-img-top" alt="Comida 2">
+                            <div class="card-body">
+                                <p class="card-text">Grand Gateu</p>
+                            </div></a>
+                        </div>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="./prduto2.html">
+                            <img src="imagem/620425062_18077747108198034_696360641341361132_n.jpg" class="card-img-top"
+                                alt="Comida 3">
+                            <div class="card-body">
+                                <p class="card-text">Tazza Bueno.</p>
+                            </div></a>
+                        </div>
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="produto4.html">
+                            <img src="imagem/619627342_18074238089098423_5714288834989755738_n.jpg" class="card-img-top"
+                                alt="Comida 1">
+                            <div class="card-body">
+                                <p class="card-text">Copo 2 sabores de gelato</p>
+                            </div>
+                        </div></a>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="produto3.html">
+                            <img src="./imagem/619431491_18092240227986868_3333618647530930346_n.jpg"
+                                class="card-img-top" alt="Comida 2">
+                            <div class="card-body">
+                                <p class="card-text">Embalagem Média</p>
+                            
+                            </div>
+                        </div></a>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="produto5.html">
+                            <img src="imagem/619210621_18107017732602601_5584888760291015492_n.jpg" class="card-img-top"
+                                alt="Comida 3">
+                            <div class="card-body">
+                                <p class="card-text">Brownie.</p>
+                            </div>
+                        </div></a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h2 class="text-center text-white mb-4">Bebidas</h2>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="aguacgas.html">
+                            <img src="imagem/aguacgas.jpg" class="card-img-top"
+                                alt="Bebida 1">
+                            <div class="card-body">
+                                <p class="card-text">Água com gás 500ml</p>
+                            </div></a>
+                        </div>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="sprite.html">
+                            <img src="imagem/Refrigerante Sprite Original 350ml lata.jpg..webp" class="card-img-top"
+                                alt="Bebida 2">
+                            <div class="card-body">
+                                <p class="card-text">Sprite 350ml</p>
+                            </div></a>
+                        </div>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="coca.html">
+                            <img src="./imagem/coca.jpg"
+                                class="card-img-top" alt="Bebida 3">
+                            <div class="card-body">
+                                <p class="card-text">Coca-cola 350ml.</p>
+                            </div></a>
+                        </div>
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="fanta.html">
+                            <img src="imagem/fanta.jpg" class="card-img-top"
+                                alt="Comida 1">
+                            <div class="card-body">
+                                <p class="card-text">Fanta 350ml.</p>
+                            </div></a>
+                        </div>
+
+                        <div class="card piscar" style="width: 18rem;">
+                            <a href="aguasemgas.html">
+                            <img src="./imagem/images.jpg"
+                                class="card-img-top" alt="Comida 2">
+                            <div class="card-body">
+                                <p class="card-text">Água sem gás 500ml.</p>
+                            </div>
+                        </div></a>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            <br>
+        </section>
+        <section id="pag3" class="pag3" style="min-height: 100vh; background-color: rgb(132, 179, 206);">
+
+
+            <div class="d-flex justify-content-center mb-4" style="height: 50px; background-color: white;">
+                <img src="imagem/569261410_18412922752143636_1951886245012626742_n.jpg"  alt="">
+            </div>
+
+            <div  class="row g-4">
+
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="./imagem/sobrenos.jpg" height="500px"  class="img-fluid w-100"alt="">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h2 class="text-left text-white mb-4">Sobre nós</h2>
+                    <p class="text-left text-white mb-">A Latte Ricco Rio Claro nasceu com o propósito de oferecer
+                        momentos especiais através de sabores únicos e uma experiência acolhedora. Somos apaixonados por
+                        criar bebidas e produtos de qualidade, preparados com carinho e dedicação para nossos clientes.
+
+                        Mais do que uma cafeteria, somos um espaço para reunir pessoas, compartilhar histórias e
+                        aproveitar aquele momento de pausa no dia. Cada detalhe é pensado para proporcionar conforto,
+                        sabor e satisfação.
+
+                        Valorizamos a qualidade dos nossos ingredientes, o atendimento próximo e a alegria de fazer
+                        parte da rotina dos moradores de Rio Claro. Venha conhecer a Latte Ricco e descobrir um lugar
+                        feito para você!</p>
+                        <h2 class="text-left text-white mb-4">Para saber mais, entre em contato:</h2>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <form class="row g-3">
+
+                        <div class="col-md-6">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="text" class="form-control" id="telefone" placeholder="(19) 99999-9999">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4"
+                                placeholder="Digite sua mensagem"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="novidades">
+                                <label class="form-check-label" for="novidades">
+                                    Quero receber novidades da Latte Ricco
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-custom">Enviar mensagem</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <section id="pag4" class="pag4" style="min-height: 100vh; background-color: rgb(132, 179, 206);">
+
+
+            <div class="d-flex justify-content-center mb-4" style="height: 50px; background-color: white;">
+                <img src="imagem/569261410_18412922752143636_1951886245012626742_n.jpg" alt="">
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6  d-flex justify-content-center align-items-center">
+                    <iframe style="border-radius: 15px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.119976539143!2d-47.56511581344853!3d-22.424509668192336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db3c02a78629%3A0x692b99db07470dcb!2sLatte%20Ricco%20Gelato!5e0!3m2!1spt-BR!2sbr!4v1787839153230!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    
+                            <img style="border-radius: 20px; height: 60vh;" src="imagem/abre as 1230.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <ul class="nav nav-underline d-flex justify-content-center align-items-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/lattericco/">Instagram</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.tripadvisor.com.br/Restaurant_Review-g675027-d23159733-Reviews-Latte_Ricco_Gelato-Rio_Claro_State_of_Sao_Paulo.html">Nós avalie</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.facebook.com/lattericco/?locale=pt_BR">Facebook</a>
+  </li>
+</ul>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
